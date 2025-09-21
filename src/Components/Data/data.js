@@ -5,13 +5,24 @@ const projects = {
         {
             image: 'https://res.cloudinary.com/dzrimmyks/image/upload/v1752137087/dream-canvas_lgaxwr.png',
             title: 'Text-to-image Generator | LIVE Site available',
-            description: 'The Text-to-Image Generator is an AI-based web application that allows users to generate high-quality images simply by entering descriptive text prompts. It uses Generative AI models like Stable Diffusion or OpenJourney to convert natural language input into visual artwork. This democratizes creativity by enabling anyone — regardless of design skills — to create unique images for personal, educational, or professional use.', 
+            description: 'The Text-to-Image Generator is an AI-based web application that allows users to generate high-quality images simply by entering descriptive text prompts. It uses Generative AI models like Stable Diffusion or OpenJourney to convert natural language input into visual artwork.', 
             sourcecode: 'https://github.com/Piyush6766/Dream_Canvas',
             livelink: 'https://dream-canvas-flame.vercel.app/',
             teckstack: ["React","Tailwind", "Razorpay", "Node.js", "Express.js", "MongoDB", "Clipdrop API", "Dark Mode", "Light Mode"],
             status: 'live', 
             featured: true 
 
+        },
+        {
+
+            image: 'https://res.cloudinary.com/dzrimmyks/image/upload/v1758479969/Screenshot_2025-09-22_000619_kmafrb.png',
+            title: 'Collaborative Whiteboard | LIVE site available',
+            description: 'A real-time collaborative whiteboard built with MERN stack and WebSockets, allowing multiple users to draw, brainstorm, and share ideas instantly. Designed for smooth team collaboration with live sync and interactive tools.',
+            sourcecode: 'https://github.com/Piyush6766/whiteboard',
+            livelink: 'https://whiteboard-sand-mu.vercel.app/',
+            teckstack: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Canvas API", "Tailwind CSS"],
+            status: 'live', 
+            featured: true 
         },
         {
             image: 'https://res.cloudinary.com/dzrimmyks/image/upload/v1752141120/todo-list_mq041j.png',
@@ -44,6 +55,7 @@ const projects = {
             status: 'live', 
             featured: true 
         },
+        
         
     ],
 }
